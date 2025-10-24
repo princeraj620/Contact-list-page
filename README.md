@@ -182,12 +182,6 @@ This is open source - feel free to use it however you want!
 **Prince Raj**
 - GitHub: [@princeraj620](https://github.com/princeraj620)
 
-## Thanks
-
-- React team for making such a great framework
-- Lucide for the awesome icons
-- Vercel for making deployment super easy
-- The open-source community for all the inspiration
 
 ---
 
