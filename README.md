@@ -1,35 +1,35 @@
-# Contact List App 📇
+# Contact List App
 
-Hey theThis is my Contact List application that I built for a frontend development assignment. It's a React app that lets you manage your contacts with a clean, modern interface. I've included search functionality and the ability to add new contacts - pretty much everything you'd need for a basic contact manager
+Hey This is my Contact List application that I built for a frontend development assignment. It's a React app that lets you manage your contacts with a clean, modern interface. I've included search functionality and the ability to add new contacts - pretty much everything you'd need for a basic contact manager
 
-## 🚀 Live Demo
+## Live Demo
 
-[Check it out live](https://contact-list-app-vercel.vercel.app) | [View my code](https://github.com/yourusername/contact-list-app)
+[Check it out live](https://contact-list-app-vercel.vercel.app) | [View my code](https://github.com/princeraj620/Contact-list-page)
 
-## ✨ What I Built
+## What I Built
 
 ### The Main Stuff
-- **📋 Contact List**: I created a nice card-based layout to show all contacts - looks clean and organized
-- **🔍 Search Feature**: You can search for contacts by name in real-time, which is pretty handy when you have lots of contacts
-- **➕ Add Contacts**: I built a form where you can add new contacts with proper validation (no more typos!)
-- **📱 Mobile Friendly**: Works great on phones, tablets, and computers - I made sure it's responsive
+- **Contact List**: I created a nice card-based layout to show all contacts - looks clean and organized
+- **Search Feature**: You can search for contacts by name in real-time, which is pretty handy when you have lots of contacts
+- **Add Contacts**: I built a form where you can add new contacts with proper validation (no more typos!)
+- **Mobile Friendly**: Works great on phones, tablets, and computers - I made sure it's responsive
 
 ### The Cool Details
-- **🎨 Pretty Design**: I went with a gradient background and clean white cards - looks modern and professional
-- **⚡ Smooth Animations**: Added some nice fade-in effects and hover animations to make it feel polished
-- **🎯 Interactive Stuff**: You can click on emails and phone numbers to actually contact people
-- **📞 Quick Actions**: Each contact has buttons to email or call them directly
-- **🔄 Loading States**: Added loading spinners so users know something is happening
-- **✅ Smart Validation**: The form checks if you're entering valid data and shows helpful error messages
+- **Pretty Design**: I went with a gradient background and clean white cards - looks modern and professional
+- **Smooth Animations**: Added some nice fade-in effects and hover animations to make it feel polished
+- **Interactive Stuff**: You can click on emails and phone numbers to actually contact people
+- **Quick Actions**: Each contact has buttons to email or call them directly
+- **Loading States**: Added loading spinners so users know something is happening
+- **Smart Validation**: The form checks if you're entering valid data and shows helpful error messages
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React 18**: Modern React with hooks and functional components
 - **CSS3**: Custom CSS with modern features like Grid, Flexbox, and animations
 - **Lucide React**: Beautiful, customizable icons
 - **Responsive Design**: Mobile-first approach with CSS Grid and Flexbox
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (version 14 or higher)
@@ -39,8 +39,8 @@ Hey theThis is my Contact List application that I built for a frontend developme
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/contact-list-app.git
-   cd contact-list-app
+   git clone https://github.com/princeraj620/Contact-list-page.git
+   cd Contact-list-page
    ```
 
 2. **Install dependencies**
@@ -70,7 +70,7 @@ yarn build
 
 This creates a `build` folder with optimized production files.
 
-## 📱 Usage
+## Usage
 
 ### Viewing Contacts
 - All contacts are displayed in a responsive grid layout
@@ -91,7 +91,7 @@ This creates a `build` folder with optimized production files.
 3. Click "Add Contact" to save
 4. The new contact will appear at the top of the list
 
-## 🎨 Why I Designed It This Way
+## Why I Designed It This Way
 
 ### Colors
 - **Main Colors**: I went with a blue-to-purple gradient (#667eea to #764ba2) - looks modern and professional
@@ -113,7 +113,7 @@ This creates a `build` folder with optimized production files.
 - **Hover Effects**: Cards lift up slightly when you hover - feels interactive
 - **Loading**: Smooth spinner so users know something is happening
 
-## 🔧 How I Built It
+## How I Built It
 
 ### File Structure
 ```
@@ -141,7 +141,7 @@ src/
 3. **Add Contact**: Validates the form and adds to the list
 4. **Updates**: Everything re-renders automatically when state changes
 
-## 🚀 How to Deploy This
+## How to Deploy This
 
 ### Vercel (Easiest Option)
 1. Push your code to GitHub
@@ -157,7 +157,7 @@ src/
 1. Install gh-pages: `npm install --save-dev gh-pages`
 2. Add this to your package.json:
    ```json
-   "homepage": "https://yourusername.github.io/contact-list-app",
+   "homepage": "https://princeraj620.github.io/Contact-list-page",
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d build"
@@ -165,7 +165,7 @@ src/
    ```
 3. Run `npm run deploy` and you're done!
 
-## 🤝 Want to Contribute?
+## Want to Contribute?
 
 If you want to improve this or add features:
 1. Fork the repository
@@ -173,18 +173,18 @@ If you want to improve this or add features:
 3. Make your changes and commit them
 4. Push to your branch and create a pull request
 
-## 📝 License
+## License
 
 This is open source - feel free to use it however you want!
 
-## 👨‍💻 About Me
+## About Me
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+**Prince Raj**
+- GitHub: [@princeraj620](https://github.com/princeraj620)
+- LinkedIn: [Prince Raj](https://linkedin.com/in/princeraj620)
+- Email: princeraj620@gmail.com
 
-## 🙏 Thanks
+## Thanks
 
 - React team for making such a great framework
 - Lucide for the awesome icons

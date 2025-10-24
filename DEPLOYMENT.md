@@ -1,4 +1,4 @@
-# How to Deploy My Contact List App 🚀
+# How to Deploy My Contact List App
 
 Hey! So you want to deploy this contact list app? Here are the different ways I've found that work really well. I'll walk you through each option step by step.
 
