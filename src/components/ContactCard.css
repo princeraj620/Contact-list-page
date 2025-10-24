@@ -1,0 +1,183 @@
+/* Contact Card Styles */
+.contact-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.5s ease-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: #d1d5db;
+}
+
+.contact-card:hover::before {
+  opacity: 1;
+}
+
+.contact-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.avatar-text {
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-detail:hover {
+  background: #f8fafc;
+  transform: translateX(4px);
+}
+
+.detail-icon {
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.detail-text {
+  color: #4b5563;
+  font-size: 0.95rem;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+.action-button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.email-button {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.email-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.phone-button {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.phone-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 1.25rem;
+  }
+  
+  .contact-avatar {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .avatar-text {
+    font-size: 1rem;
+  }
+  
+  .contact-name {
+    font-size: 1.1rem;
+  }
+  
+  .contact-details {
+    gap: 0.5rem;
+  }
+  
+  .contact-detail {
+    padding: 0.375rem;
+  }
+  
+  .detail-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    padding: 1rem;
+  }
+  
+  .contact-actions {
+    margin-top: 0.75rem;
+  }
+  
+  .action-button {
+    width: 32px;
+    height: 32px;
+  }
+}
