@@ -181,8 +181,6 @@ This is open source - feel free to use it however you want!
 
 **Prince Raj**
 - GitHub: [@princeraj620](https://github.com/princeraj620)
-- LinkedIn: [Prince Raj](https://linkedin.com/in/princeraj620)
-- Email: princeraj620@gmail.com
 
 ## Thanks
 
