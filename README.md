@@ -4,7 +4,7 @@ Hey This is my Contact List application that I built for a frontend development 
 
 ## Live Demo
 
-[Check it out live](https://contact-list-app-vercel.vercel.app) | [View my code](https://github.com/princeraj620/Contact-list-page)
+[Check it out live](https://contact-list-page.vercel.app) | [View my code](https://github.com/princeraj620/Contact-list-page)
 
 ## What I Built
 
