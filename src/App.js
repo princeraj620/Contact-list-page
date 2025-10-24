@@ -9,45 +9,45 @@ import Header from './components/Header';
 const sampleContacts = [
   {
     id: 1,
-    name: 'John Doe',
-    email: 'john.doe@example.com',
-    phone: '+1 (555) 123-4567',
-    avatar: 'JD'
+    name: 'Prince Raj',
+    email: 'prince@gmail.com',
+    phone: '+91 6207011655',
+    avatar: 'PR'
   },
   {
     id: 2,
-    name: 'Jane Smith',
-    email: 'jane.smith@example.com',
-    phone: '+1 (555) 234-5678',
-    avatar: 'JS'
+    name: 'Vanshaj Jain',
+    email: 'vanshaj@gmail.com',
+    phone: '+91 8287393299',
+    avatar: 'VJ'
   },
   {
     id: 3,
-    name: 'Mike Johnson',
-    email: 'mike.johnson@example.com',
-    phone: '+1 (555) 345-6789',
-    avatar: 'MJ'
+    name: 'Vikramaditya',
+    email: 'vikramaditya@gmail.com',
+    phone: '+91 9664766367',
+    avatar: 'VI'
   },
   {
     id: 4,
-    name: 'Sarah Wilson',
-    email: 'sarah.wilson@example.com',
-    phone: '+1 (555) 456-7890',
-    avatar: 'SW'
+    name: 'Siddhant',
+    email: 'siddhant@gmail.com',
+    phone: '+91 9113486148',
+    avatar: 'SI'
   },
   {
     id: 5,
-    name: 'David Brown',
-    email: 'david.brown@example.com',
-    phone: '+1 (555) 567-8901',
-    avatar: 'DB'
+    name: 'Vaishnavi',
+    email: 'vaishnavi@gmail.com',
+    phone: '+91 9876543212',
+    avatar: 'VA'
   },
   {
     id: 6,
-    name: 'Emily Davis',
-    email: 'emily.davis@example.com',
-    phone: '+1 (555) 678-9012',
-    avatar: 'ED'
+    name: 'Suryansh',
+    email: 'suryansh@gmail.com',
+    phone: '+91 9670006875',
+    avatar: 'SU'
   }
 ];
 
