@@ -31,26 +31,52 @@
   font-weight: 400;
 }
 
-.header-decoration {
+.header-info {
   display: flex;
-  gap: 1rem;
   align-items: center;
 }
 
-.decoration-circle {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3);
-  animation: float 3s ease-in-out infinite;
+.developer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
 }
 
-.decoration-circle:nth-child(2) {
-  animation-delay: 0.5s;
+.developer-name {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.decoration-circle:nth-child(3) {
-  animation-delay: 1s;
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.github-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.github-link svg {
+  width: 18px;
+  height: 18px;
 }
 
 @keyframes float {
@@ -76,6 +102,19 @@
   
   .header-title p {
     font-size: 1rem;
+  }
+  
+  .developer-info {
+    align-items: center;
+  }
+  
+  .developer-name {
+    font-size: 1rem;
+  }
+  
+  .github-link {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
   }
 }
 
